@@ -1,4 +1,4 @@
-FROM tomcat:latest
+FROM tomcat:11.0.6-jdk21-temurin-noble
 
 # Remove the default ROOT application
 RUN rm -rf /usr/local/tomcat/webapps/*
